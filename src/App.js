@@ -1,25 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+// import MyOmdb from "./components/MyOmdb/MyOmdb"
+// import FakeStoryApi from "./components/FakeStoryApi/products"
+// import Form from "./Form/Form"
+// import FormDataSearch from "./components/FormDataSearch/FormDataSearch"
+// import FormData from "./components/FormData/FormData"
+// import CustomFormValidation from "./components/CustomFormValidation/CustomFormValidation"
+import ImageSlider from "./components/ImagesSlider/ImageSlider"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ImageSlider />
     </div>
   );
-}
+  }
 
 export default App;

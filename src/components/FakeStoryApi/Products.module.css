@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1rem;
+}
+
+html,body {
+  width: 100%;
+}
+
+.productsCont {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: aquamarine;
+  color: whitesmoke;
+  padding-block: 2rem;
+}
+
+.mainCont {
+  width: 22%;
+  background-color: black;
+  border-radius: .5rem;
+  padding: .5rem;
+}
+
+.mainCont img {
+  width: 100%;
+  height: 50vh;
+}
+
+.productsContents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productsContents h3 {
+  color: dodgerblue
+}
