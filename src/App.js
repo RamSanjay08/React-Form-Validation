@@ -6,12 +6,13 @@ import './App.css';
 // import FormDataSearch from "./components/FormDataSearch/FormDataSearch"
 // import FormData from "./components/FormData/FormData"
 // import CustomFormValidation from "./components/CustomFormValidation/CustomFormValidation"
-import ImageSlider from "./components/ImagesSlider/ImageSlider"
+// import ImageSlider from "./components/ImagesSlider/ImageSlider"
+import TodolistuseReducer from "./components/TodolistuseReducer/TodolistuseReducer"
 
 function App() {
   return (
     <div className="App">
-      <ImageSlider />
+      <TodolistuseReducer />
     </div>
   );
   }
